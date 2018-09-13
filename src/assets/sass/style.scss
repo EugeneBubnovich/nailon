@@ -1,2 +1,21 @@
-@import "../../../bower_components/bootstrap/scss/bootstrap-reboot";
-@import "../../../bower_components/bootstrap/scss/grid";
+//@import "../../../bower_components/bootstrap/scss/bootstrap-reboot";
+//@import "../../../bower_components/bootstrap/scss/utilities";
+//@import "../../../bower_components/bootstrap/scss/grid";
+//@import "../../../bower_components/bootstrap/scss/buttons";
+//@import "../../../bower_components/bootstrap/scss/transitions";
+//@import "../../../bower_components/bootstrap/scss/navbar";
+//@import "../../../bower_components/bootstrap/scss/forms";
+
+
+@import "../../../bower_components/bootstrap/scss/variables";
+
+@import "varibles";
+
+@import "fonts";
+@import "blocks/header";
+@import "blocks/main";
+@import "blocks/subscribe";
+@import "blocks/footer";
+@import "blocks/copyright";
+
+@import "customize";

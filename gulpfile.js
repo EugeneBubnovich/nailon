@@ -26,21 +26,21 @@ var path = {
         html: "build/",
         js: "build/assets/js/",
         css: "build/assets/css/",
-        img: "build/assets/i/",
+        img: "build/assets/images/",
         fonts: "build/assets/fonts/"
     },
     src: {
         html: "src/*.{htm,html}",
         js: "src/assets/js/*.js",
         css: "src/assets/sass/style.scss",
-        img: "src/assets/i/**/*.*",
+        img: "src/assets/images/**/*.*",
         fonts: "src/assets/fonts/**/*.*"
     },
     watch: {
         html: "src/**/*.{htm,html}",
         js: "src/assets/js/**/*.js",
         css: "src/assets/sass/**/*.scss",
-        img: "src/assets/i/**/*.*",
+        img: "src/assets/images/**/*.*",
         fonts: "src/assets/fonts/**/*.*"
     },
     clean: "./build"

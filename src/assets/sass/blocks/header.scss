@@ -1,0 +1,25 @@
+.header {
+  height: 400px;
+  background: url("../images/bg.jpg") no-repeat center;
+  background-size: cover;
+  color: $white;
+  text-align: center;
+
+  @media (max-width: 1199px) {
+    .display-6 {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 991px) {
+    height: 300px;
+    .display-6 {
+      font-size: 2rem;
+    }
+  }
+  @media (max-width: 767px) {
+    height: 250px;
+    .display-6 {
+      font-size: 1.5rem;
+    }
+  }
+}
